@@ -6,10 +6,9 @@ html{overflow-y:scroll;}
 ul,ol{list-style-type:none;}
 th,td,input{font-size:12px;}
 h3{font-size:14px;}
-button{border:none;cursor:pointer;font-size:12px;background-color:transparent;}
 select{border-width:1px;_zoom:1;border-style:solid;padding-top:2px;font-size:12px;}
 .clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1;}
-a:link,a:visited{text-decoration:underline;color:red;}
+a:link,a:visited{text-decoration:underline;color:black;}
 a:hover,a:active{text-decoration:underline;color:#f60;}

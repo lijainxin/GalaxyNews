@@ -18,8 +18,8 @@
         height: 50px;
         width: 500px;
         margin: 10px auto;
-        background:gray;
-        border: 1px solid black;
+        background:yellow;
+        border: 1px solid yellow;
         text-align: center;
         line-height: 50px;
     }
@@ -28,7 +28,7 @@
         margin: 0 auto
     }
     article p{
-        line-height: 1em
+        line-height: 2rem
     }
     nav ul li{
          height: 40px;
@@ -46,14 +46,14 @@
    }
    output{
        border: 1px solid black;
-      padding: 2px 77px;
+      padding: 0 77px;
 
    }
     </style>
 </head>
 <body>
     <header>
-        <h3>这是我的第一个H5页面</h3>
+        <h3> <a href="./galaxynews.html">点击跳转格莱新闻</a> </h3>
     </header>
     <nav>
         <ul>
@@ -70,8 +70,29 @@
     <footer>
         版权信息
     </footer>
-    <input type="text" id="a">+<input type="text" id="b">=<output id="x"></output>
+    <!-- <form action="">
+    <input type="text" id="a">+<input type="text" id="b">=<output id="c"></output>
     <br />
-    <button onclick="x.value=parseInt(a.value)+parseInt(b.value)">点击</button>
+    <button onclick="c.value=parseInt(a.value)+parseInt(b.value)">点击</button>
+</form> -->
+<h2>新的type类型</h2>
+  <!-- step代表步长值  代表每次加多少减多少 还可以添加最小值最大值属性-->
+  <form action="" method="POST" oninput="x.value=parseInt(s.value)+parseInt(z.value)">
+       数字类型:<input id="s" type="number" step="10" min="0" max="100" value="1"> +
+       滑块类型:<input id="z" type="range"  step="1" min="0" max="100" value="0">  =
+   <output id="x"></output>
+   <br/>
+   <input type="email" id="email">
+   <br/>
+     <input type="color" value="#00ffff" oninput="console.log(this.value)">
+     <br/>
+     <input type="search">
+     <input type="date" name="" id="">
+     <input type="time" name="" id="">
+     <br/>
+     <input type="month" name="" id="">
+     <input type="week" name="" id="">
+  </form>
+  
 </body>
 </html>
