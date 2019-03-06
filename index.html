@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HTML5语义化标签</title>
+    <style>
+        body{
+            margin: 0;
+            text-align: center
+        }
+        h3{
+            margin: 0
+        }
+    header,nav,article,footer{
+        height: 50px;
+        width: 500px;
+        margin: 10px auto;
+        background:gray;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 50px;
+    }
+    nav ul{ 
+      line-height: 40px;
+        margin: 0 auto
+    }
+    article p{
+        line-height: 1em
+    }
+    nav ul li{
+         height: 40px;
+        padding:0 10px;
+        display: inline-block;
+        margin: 5px 0;
+        
+        border-right: 1px solid black;
+    }
+    nav ul li:last-child{
+        border: none
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>这是我的第一个H5页面</h3>
+    </header>
+    <nav>
+        <ul>
+            <li>语义化标签</li>
+            <li>绘图</li>
+            <li>表单</li>
+            <li>本地储存</li>
+            <li>媒体</li>
+        </ul>
+    </nav>
+    <article>
+            <p>文章内容详情</p>
+         </article>
+    <footer>
+        版权信息
+    </footer>
+</body>
+</html>
