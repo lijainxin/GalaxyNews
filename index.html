@@ -41,6 +41,14 @@
     nav ul li:last-child{
         border: none
     }
+   input{
+       border: 1px solid black
+   }
+   output{
+       border: 1px solid black;
+      padding: 2px 77px;
+
+   }
     </style>
 </head>
 <body>
@@ -62,5 +70,8 @@
     <footer>
         版权信息
     </footer>
+    <input type="text" id="a">+<input type="text" id="b">=<output id="x"></output>
+    <br />
+    <button onclick="x.value=parseInt(a.value)+parseInt(b.value)">点击</button>
 </body>
 </html>
